@@ -1,12 +1,11 @@
 #include <stdio.h>
 /**
- * main -A program which prints a senetence 
+ * main - Entry point
  *
- * Return: The main function returns 0 if it works
- * /
- int main(void)
- {
-	 puts("Programming is like building  multilingual puzzle");
-
-	 return (0);
- }
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+puts("\"Programming is like building  multilingual puzzle");
+return (0);
+}
