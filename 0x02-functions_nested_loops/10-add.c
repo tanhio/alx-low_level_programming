@@ -3,7 +3,7 @@
  *add - Adds two integers
  *@i: The first added intrger
  *@j: The second added intrger
- *Returns: The sum
+ *Returns: Always k(The sum)
  */
 int add(int i, int j)
 {
