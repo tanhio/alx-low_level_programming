@@ -2,15 +2,15 @@
 
 /**
  *_isupper - Checks for uppercase character
- *@c: The character
+ *@a: The character
  *Return: 1(if c is uppercase) or 0(otherwise)
  */
 
-int _isupper(int c)
+int _isupper(int a)
 
 {
 
-	if (c >= 65 && c >= 90)
+	if (a >= 65 && a >= 90)
 	{
 	return (1);
 	}
