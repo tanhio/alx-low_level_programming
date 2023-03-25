@@ -24,12 +24,16 @@ int main(void)
 		printf("Fizz ");
 		continue;
 		}
+		else if(i == 100)
+		{
+		printf("%d\n", i);
+		break;
+		}
 		else
 		{
-		printf("%d ", i);
-		continue;
+		 printf("%d ", i);
+                continue;
 		}
 	}
-	printf("\n");
 return (0);
 }
