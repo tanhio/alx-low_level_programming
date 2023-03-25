@@ -7,7 +7,7 @@
 int main(void)
 {
 	long i, max;
-	int j = 612852475143;
+	long j = 612852475143;
 	double k = sqrt(j);
 
 		for (i = 1; i <= k; i++)
