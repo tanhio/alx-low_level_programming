@@ -42,7 +42,7 @@ int main(void)
 		for (i = 0; c[i]; i++)
 		{
 			if (c[i] >= (33 + half2))
-			{
+			
 				c[i] -= half2;
 				break;
 			}
