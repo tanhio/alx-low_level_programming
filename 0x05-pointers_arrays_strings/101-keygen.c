@@ -10,7 +10,7 @@
 int main(void)
 {
 	char c[84];
-	int i = 0; sum = 0; half1, half2;
+	int i = 0, sum = 0, half1, half2;
 
 	srand(time(0));
 
@@ -27,7 +27,7 @@ int main(void)
 		half1 = (sum - 2772) / 2;
 		half2 = (sum - 2772) / 2;
 
-		if (sum - 2772) % 2 != 0)
+		if ((sum - 2772) % 2 != 0)
 		half1++;
 
 		for (i = 0; c[i]; i++)
