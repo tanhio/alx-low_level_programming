@@ -1,12 +1,10 @@
 #include "main.h"
-
 /**
  * _strpbrk - searches a string for any of a set of bytes
  * @s: the string
- * @cccept: the bytes in the string
+ * @accept: the bytes in the string
  * Return: accept or null
  */
-
 char *_strpbrk(char *s, char *accept)
 {
 	int i;
