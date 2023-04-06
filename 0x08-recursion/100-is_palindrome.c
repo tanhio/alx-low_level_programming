@@ -23,9 +23,9 @@ return (_strlen_recursion(s + 1) + 1);
  */
 int comparator(char *s, int i, int j)
 {
-	if (*(s + i) == *(s + j)
+	if (*(s + i) == *(s + j))
 	{
-		if (i == j || i == j++)
+		if (i == j || i == j + 1)
 		{
 			return (1);
 		}
