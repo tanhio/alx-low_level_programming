@@ -7,15 +7,15 @@
  */
 int _sqrt_recursion(int n)
 {
-	return (sqrt(n, 1));
+	return (_sqrt(n, 1));
 }
 /**
- * sqrt - calculate the square root
+ * _sqrt - calculate the square root
  * @n: the number
  * @i: number of iteration
  * Return: the square root
  */
-int sqrt(int n, int i)
+int _sqrt(int n, int i)
 {
 	int j = i * i;
 
@@ -27,6 +27,6 @@ int sqrt(int n, int i)
 	{
 		return (i);
 	}
-return (sqrt(n, i + 1));
+return (_sqrt(n, i + 1));
 }
 
