@@ -55,8 +55,6 @@ char **strtow(char *str)
 			{
 				end = i;
 				tmp = (char *)malloc(sizeof(char) * (c + 1));
-	}
-return (i);
 				if (tmp == NULL)
 					return (NULL);
 				while (start < end)
@@ -66,9 +64,11 @@ return (i);
 				k++;
 				c = 0;
 			}
-		}
-		else if (c++ == 0)
+			else if (c++ == 0)
+			{
 			start = i;
+			}
+		}
 	}
 	matrix[k] = NULL;
 return (matrix);
