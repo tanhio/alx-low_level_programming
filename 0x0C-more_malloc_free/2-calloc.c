@@ -19,8 +19,8 @@ return (dest);
 }
 /**
  * _calloc -  allocates memory for an array, using malloc
- * @nmemb: an array
- * @size: the number of bytes to free in the allocared memory
+ * @nmemb: number of array members 
+ * @size: the number of bytes to free in the allocated memory for one member
  *Return: ptr
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
