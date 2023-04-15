@@ -21,18 +21,18 @@ return (dest);
  * _calloc -  allocates memory for an array, using malloc
  * @nmemb: number of array members 
  * @size: the number of bytes to free in the allocated memory for one member
- *Return: ptr
+ *Return: pointer to the array memory block
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char *ptr;
 
-	ptr = malloc(nmemb * size);
-
 	if (ptr == NULL || nmemb == 0 || size == 0)
 	{
 		return (NULL);
 	}
+
+	ptr = malloc(nmemb * size);
 
 	_save(ptr, 0, (size * nmemb));
 return (ptr);
