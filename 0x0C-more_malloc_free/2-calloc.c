@@ -27,12 +27,17 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char *ptr;
 
-	if (ptr == NULL || nmemb == 0 || size == 0)
+	if (nmemb == 0 || size == 0)
 	{
 		return (NULL);
 	}
 
 	ptr = malloc(nmemb * size);
+
+	if (ptr == NULL)
+	{
+		return (NULL);
+	}
 
 	_save(ptr, 0, (size * nmemb));
 return (ptr);
