@@ -19,7 +19,7 @@ int main(int __attribute__((__unused__))argc, char *argv[])
 		exit(98);
 	}
 
-	i = atoi(argv[i]);
+	i = atoi(argv[1]);
 	c = argv[2];
 	j = atoi(argv[3]);
 
