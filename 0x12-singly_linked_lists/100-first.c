@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void first(void)__attribute__((construction));
+void first(void)__attribute__((constructor));
 
 /**
  * first - print a sentence before the main function
