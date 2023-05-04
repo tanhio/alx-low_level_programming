@@ -24,7 +24,7 @@ size_t looped_listint_len(const listint_t *head)
 	{
 		if (turttle == rabbit)
 		{
-			turttle = rabbit;
+			turttle = head;
 			while (turttle != rabbit)
 			{
 				nodes++;
