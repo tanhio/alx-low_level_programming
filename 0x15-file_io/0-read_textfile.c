@@ -10,12 +10,11 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	char *c;
-	size_t file;
-	size_t r;
-	size_t w;
+	ssize_t file;
+	ssize_t r;
+	ssize_t w;
 
 	file = open(filename, O_RDONLY);
-
 	if (file == -1)
 		return (0);
 
